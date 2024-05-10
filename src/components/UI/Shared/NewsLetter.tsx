@@ -1,9 +1,7 @@
 import * as React from 'react';
 
-interface INewsLetterProps {
-}
 
-const NewsLetter: React.FunctionComponent<INewsLetterProps> = (props) => {
+const NewsLetter: React.FunctionComponent= (props) => {
     return <div className="mx-auto  max-w-7xl px-6 sm:mt-4 lg:px-8">
         <div className="relative isolate overflow-hidden px-6 py-24 shadow-lg rounded-2xl sm:rounded-3xl sm:px-24 ">
             <h2 className="mx-auto max-w-2xl text-center text-3xl font-bold tracking-tight  sm:text-4xl">

@@ -1,10 +1,8 @@
 import * as React from 'react';
 import logo from "@/assets/images/logo/empoerify.png"
 import Image from 'next/image';
-interface IFooterProps {
-}
 
-const Footer: React.FunctionComponent<IFooterProps> = (props) => {
+const Footer: React.FunctionComponent = (props) => {
   return <>
       <>
           {/* component */}
