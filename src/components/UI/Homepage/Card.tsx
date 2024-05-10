@@ -1,8 +1,7 @@
 import * as React from 'react';
 import Image from 'next/image';
 
-interface ICardProps {
-}
+
 ;
 
 const bestServices = [
@@ -32,7 +31,7 @@ const bestServices = [
     }
 ];
 
-const Card: React.FunctionComponent<ICardProps> = (props) => {
+const Card: React.FunctionComponent = (props) => {
     return (
         <section className=" dark:bg-gray-100 dark:text-gray-800 max-w-7xl mx-auto py-20">
             <div className="container mx-auto p-4 my-6 space-y-2 text-center">

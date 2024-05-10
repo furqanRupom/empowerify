@@ -1,10 +1,8 @@
 import * as React from 'react';
 import logo from "@/assets/images/logo/empoerify.png"
 import Image from 'next/image';
-interface INavbarProps {
-}
 
-const Navbar: React.FunctionComponent<INavbarProps> = (props) => {
+const Navbar: React.FunctionComponent = (props) => {
     return <header
         className=" bg-center bg-no-repeat bg-cover max-w-screen-2xl mx-auto   py-8"
        

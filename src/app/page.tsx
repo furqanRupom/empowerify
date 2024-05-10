@@ -6,10 +6,8 @@ import Card from "@/components/UI/Homepage/Card";
 import Table from "@/components/UI/Homepage/Table";
 import NewsLetter from "@/components/UI/Shared/NewsLetter";
 import Footer from "@/components/UI/Shared/Footer";
-import { env } from "process";
 
 export default function HomePage() {
-  console.log(env.DATABASE_URL)
   return (
 
 

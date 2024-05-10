@@ -1,9 +1,7 @@
 import * as React from 'react';
 
-interface IAppProps {
-}
 
-const Table: React.FunctionComponent<IAppProps> = (props) => {
+const Table: React.FunctionComponent = (props) => {
     const data = [
         {
             Platform: "Empowerify",

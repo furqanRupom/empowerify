@@ -1,9 +1,8 @@
 import * as React from 'react';
 
-interface IThanksProps {
-}
 
-const Thanks: React.FunctionComponent<IThanksProps> = (props) => {
+
+const Thanks: React.FunctionComponent = (props) => {
   return <>
       <section className="hidden  success bg-black bg-opacity-80 fixed top-0 left-0 right-0 bottom-0  ">
           <div
