@@ -12,6 +12,9 @@ const Footer: React.FunctionComponent<IFooterProps> = (props) => {
               <div className="md:w-2/3 w-full px-4  flex flex-col">
                   <div className="w-full text-5xl font-bold">
                       <h1 className="w-full md:w-2/3">How can we help you. get in touch</h1>
+
+
+                      
                   </div>
                   <div className="flex mt-8 flex-col md:flex-row md:justify-between">
                       <p className="w-full md:w-2/3 text-gray-600">
