@@ -105,8 +105,7 @@ const Table: React.FunctionComponent<IAppProps> = (props) => {
                           <tbody>
                              {
                                 data.map((crowdData) => (
-
-                                    <tr className="text-gray-700 text-center">
+                                    <tr key={crowdData.PlatformFee} className="text-gray-700 text-center">
                                         <td className="px-4 py-3 border text-center">
                                           
                                                
