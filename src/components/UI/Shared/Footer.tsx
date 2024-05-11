@@ -8,7 +8,7 @@ const Footer: React.FunctionComponent = (props) => {
           {/* component */}
           <div className="w-full  mt-44 flex items-center justify-center ">
               <div className="md:w-2/3 w-full px-4  flex flex-col">
-                  <div className="w-full text-5xl font-bold">
+                  <div className="w-full text-3xl font-bold">
                       <h1 className="w-full md:w-2/3">How can we help you. get in touch</h1>
 
 
@@ -97,7 +97,7 @@ const Footer: React.FunctionComponent = (props) => {
                               </a>
                           </div>
                       </div>
-                      <hr className="border-gray-600" />
+                      <hr className="border-gray-600 my-3" />
                       <p className="w-full text-center my-12 text-gray-600">
                           Copyright &copy; {new Date().getFullYear()} Empowerify
                       </p>
