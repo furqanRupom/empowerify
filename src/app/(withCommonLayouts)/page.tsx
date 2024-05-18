@@ -7,12 +7,14 @@ import * as React from 'react';
 
 
 const RootPage: React.FunctionComponent = () => {
-    return <div className='px-8'>
-        <Banner />
-        <Table />
-        <Card />
-        <NewsLetter />
-    </div>;
+    return <>
+            <Banner />
+        <div className='px-8'>
+            <Table />
+            <Card />
+            <NewsLetter />
+        </div>
+    </>;
 };
 
 export default RootPage;

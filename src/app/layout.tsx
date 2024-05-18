@@ -1,11 +1,23 @@
 import "@/styles/globals.css";
 
-import { Inter,Poppins } from "next/font/google";
+import { Inter,Poppins,Baloo_Bhai_2, Baloo_2 } from "next/font/google";
 
+export const balooBhai  = Baloo_2({
+  subsets:['latin'],
+  variable: "--font-baloo-bhai",
+  weight:[
+    '400',
+    '500',
+    '600',
+    '700'
+  ]
+  
+
+})
 
 const inter = Poppins({
   subsets: ["latin"],
-  variable: "--font-sans",
+  variable: "--font-poppins",
   weight:[
     '100',
     '200',
@@ -28,7 +40,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`font-sans ${inter.variable}`}>{
+      <body className={` font-poppins ${balooBhai.variable} ${inter.variable}`}>{
       children}
       </body>
     </html>

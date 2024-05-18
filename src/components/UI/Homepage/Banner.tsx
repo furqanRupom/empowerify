@@ -6,9 +6,7 @@ import * as React from 'react';
 const Banner: React.FunctionComponent = (props) => {
   return <>
     <div>
-
-      <div className='flex items-center text-center  justify-center max-w-5xl mx-auto py-20 '>
-
+      <div className='flex items-center text-center  justify-center max-w-5xl mx-auto py-40 '>
         <div>
 
           <h3 className='text-3xl sm:text-4xl md:text-5xl py-3 font-semibold tracking-wide leading-relaxed'>Examining Premier Online Fundraising and Crowdfunding Platforms</h3>
