@@ -2,7 +2,7 @@ import "@/styles/globals.css";
 
 import { Inter,Poppins,Baloo_Bhai_2, Baloo_2 } from "next/font/google";
 
-export const balooBhai  = Baloo_2({
+ const balooBhai  = Baloo_2({
   subsets:['latin'],
   variable: "--font-baloo-bhai",
   weight:[
