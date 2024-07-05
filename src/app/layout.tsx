@@ -1,6 +1,6 @@
 import "@/styles/globals.css";
 
-import { Inter,Poppins,Baloo_Bhai_2, Baloo_2 } from "next/font/google";
+import { Inter,Poppins,Baloo_Bhai_2, Baloo_2,Nunito } from "next/font/google";
 
  const balooBhai  = Baloo_2({
   subsets:['latin'],
@@ -27,6 +27,16 @@ const inter = Poppins({
   ]
 });
 
+const nunito = Nunito({
+  subsets: ["latin"],
+  variable: "--font-nunito",
+  weight: [
+  
+    '400',
+    '500'
+  ]
+});
+
 export const metadata = {
   title: "Empowerify",
   description: "your little contriubtion can makes infitiy level of peace",
@@ -40,7 +50,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={` font-poppins ${balooBhai.variable} ${inter.variable}`}>{
+      <body className={` font-nunito ${balooBhai.variable}  ${nunito.variable}`}>{
       children}
       </body>
     </html>

@@ -39,20 +39,20 @@ const Card: React.FunctionComponent = (props) => {
                 <p className="dark:text-gray-600">But we need your hand. to make happen to others smile . that is why we are doing this</p>
             </div>
             <div className="container mx-auto grid justify-center gap-10 sm:grid-cols-2 lg:grid-cols-3">
-             {
-                bestServices.map((service) => (
-                    <div key={service.title} className="flex flex-col items-center p-5 rounded-3xl shadow">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-8 h-8 dark:text-orange-600 text-orange-500">
-                            <path fillRule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clipRule="evenodd"></path>
-                        </svg>
-                        <h3 className="my-3 text-xl font-semibold">{service.title}</h3>
-                        <div className="space-y-1 text-sm leading-relaxed">
-                            <p>{service.description}</p>
+                {
+                    bestServices.map((service) => (
+                        <div key={service.title} className="flex flex-col items-center p-5 rounded-3xl shadow">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-8 h-8 dark:text-emerald-600 text-emerald-500">
+                                <path fillRule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clipRule="evenodd"></path>
+                            </svg>
+                            <h3 className="my-3 text-xl font-semibold">{service.title}</h3>
+                            <div className="space-y-1 text-sm leading-relaxed">
+                                <p>{service.description}</p>
+                            </div>
                         </div>
-                    </div>
-                ))
-             }
-               </div>
+                    ))
+                }
+            </div>
         </section>
     );
 };

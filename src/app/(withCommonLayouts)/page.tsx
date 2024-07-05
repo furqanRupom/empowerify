@@ -1,3 +1,4 @@
+import About from '@/components/UI/Homepage/About';
 import Banner from '@/components/UI/Homepage/Banner';
 import Card from '@/components/UI/Homepage/Card';
 import Table from '@/components/UI/Homepage/Table';
@@ -7,14 +8,12 @@ import * as React from 'react';
 
 
 const RootPage: React.FunctionComponent = () => {
-    return <>
-            <Banner />
-        <div className='px-8'>
-            <Table />
-            <Card />
-            <NewsLetter />
-        </div>
-    </>;
+    return <section className='max-w-6xl mx-auto px-8'>
+        <Banner />
+        <About />
+        <Card />
+        <NewsLetter />
+    </section>;
 };
 
 export default RootPage;

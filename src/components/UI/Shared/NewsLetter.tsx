@@ -10,7 +10,7 @@ const NewsLetter: React.FunctionComponent = (props) => {
             </div>
             <form className="w-full max-w-md lg:col-span-5 lg:pt-2">
                 <div className="flex gap-x-4">
-                    <label htmlFor="email-address" className="sr-only">Email address</label><input id="email-address" name="email" type="email" className="min-w-0 flex-auto rounded-md border-0 focus:outline-none px-3.5 py-2  shadow-sm ring-1 ring-inset ring-orange-500 focus:ring-2 focus:ring-inset focus:ring-orange-500 sm:text-sm sm:leading-6" placeholder="Enter your email" /><button type="submit" className="flex rounded-md bg-orange-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-orange-500">Subscribe</button>
+                    <label htmlFor="email-address" className="sr-only">Email address</label><input id="email-address" name="email" type="email" className="min-w-0 flex-auto rounded-md border-0 focus:outline-none px-3.5 py-2  shadow-sm ring-1 ring-inset ring-emerald-500 focus:ring-2 focus:ring-inset focus:ring-emerald-500 sm:text-sm sm:leading-6" placeholder="Enter your email" /><button type="submit" className="flex rounded-md bg-emerald-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-emerald-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-500">Subscribe</button>
                 </div>
                 <p className="mt-4 text-sm leading-6 text-gray-600">We care about your data. Read our <a
                     href="https://www.swellai.com/privacy" className="font-semibold text-gray-500">privacy&nbsp;policy</a>.</p>
