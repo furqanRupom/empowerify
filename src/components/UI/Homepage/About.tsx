@@ -2,10 +2,9 @@ import Button from '@/components/other/UI/Button';
 import { Slider } from '@/components/other/UI/Slider';
 import * as React from 'react';
 
-interface IAboutProps {
-}
 
-const About: React.FunctionComponent<IAboutProps> = (props) => {
+
+const About: React.FunctionComponent = (props) => {
   return <section className='grid grid-cols-1 lg:grid-cols-2 gap-x-12 pt-20'>
   
     <div>
