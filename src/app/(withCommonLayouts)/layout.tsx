@@ -6,6 +6,7 @@ interface ICommonLayoutProps {
     children:React.ReactNode
 }
 
+
 const CommonLayout: React.FunctionComponent<ICommonLayoutProps> = ({children}) => {
   return <section className='bg-gray-50'>
     <Navbar />

@@ -1,6 +1,5 @@
+import Button from '@/components/other/UI/Button';
 import * as React from 'react';
-import logo from "@/assets/images/logo/empoerify.png"
-import Image from 'next/image';
 
 const Footer: React.FunctionComponent = (props) => {
     return <>
@@ -9,26 +8,20 @@ const Footer: React.FunctionComponent = (props) => {
             <div className="w-full  mt-44 flex items-center justify-center ">
                 <div className="md:w-2/3 w-full px-4  flex flex-col">
                     <div className="w-full text-3xl font-bold">
-                        <h1 className="w-full md:w-2/3">How can we help you. get in touch</h1>
-
-
-
+                        <h1 className="w-full md:w-2/3 text-zinc-700">How can we help you. get in touch</h1>
                     </div>
                     <div className="flex mt-8 flex-col md:flex-row md:justify-between">
-                        <p className="w-full md:w-2/3 text-gray-600">
+                        <p className="w-full md:w-2/3 text-zinc-600">
                             Uphold credibility with Empowerify! Any user can question uncited claims to maintain accuracy. If your work on Empowerify has been tagged, it highlights our commitment to transparency and accountability.
                         </p>
                         <div className="w-44 pt-6 md:pt-0">
-                            <a className="bg-emerald-500 text-white font-semibold justify-center text-center rounded-lg shadow px-10 py-3 flex items-center">
-                                Contact US
-                            </a>
+                         <Button>Contact us</Button>
                         </div>
                     </div>
                     <div className="flex flex-col">
                         <div className="flex mt-24 flex-row justify-between items-center">
                             <div className='flex items-center text-3xl font-bold text-emerald-400'>
                                 <h3>Empo</h3>
-                                <Image className="w-10 h-10 object-cover" src={logo} alt="logo" />
                                 <h3>werify</h3>
                             </div>
 

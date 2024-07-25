@@ -33,10 +33,10 @@ const bestServices = [
 
 const Card: React.FunctionComponent = (props) => {
     return (
-        <section className=" dark:bg-gray-100 dark:text-gray-800 max-w-7xl mx-auto py-20">
+        <section className="  dark:text-zinc-700 max-w-7xl mx-auto py-20">
             <div className="container mx-auto p-4 my-6 space-y-2 text-center">
                 <h2 className="text-5xl font-bold">We Try to Provide our Best Services</h2>
-                <p className="dark:text-gray-600">But we need your hand. to make happen to others smile . that is why we are doing this</p>
+                <p className="dark:text-zinc-600">But we need your hand. to make happen to others smile . that is why we are doing this</p>
             </div>
             <div className="container mx-auto grid justify-center gap-10 sm:grid-cols-2 lg:grid-cols-3">
                 {

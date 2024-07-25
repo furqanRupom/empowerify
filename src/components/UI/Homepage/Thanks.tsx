@@ -1,3 +1,4 @@
+import Button from '@/components/other/UI/Button';
 import * as React from 'react';
 
 
@@ -14,11 +15,9 @@ const Thanks: React.FunctionComponent = (props) => {
                   <p className="md:px-10  text-sm text-gray-400 py-4 text-center "> Your pledge brings us one step closer to sharing Mastercraft Bamboo Monitor Riser worldwide. You will get
                       an email once our campaign is completed.
                   </p>
-                  <button
-                      className="bg-teal-500  text-white font-medium py-2 px-6 mb-8 rounded-full inline-flex items-center success-close"
-                  >
-                      Got it !
-                  </button>
+                 <Button>
+                    Got It!
+                 </Button>
 
           </div>
       </section>
